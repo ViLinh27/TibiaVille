@@ -1,51 +1,32 @@
 <script setup lang="ts">
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
-import Homepage from './components/Homepage.vue';
-import CityGlance from './components/city_at_a_Glance/CityGlance.vue';
-// import { RouterLink, RouterView} from 'vue-router'
+// import Homepage from './components/Homepage.vue';
+// import CityGlance from './components/city_at_a_Glance/CityGlance.vue';
+import { RouterLink, RouterView} from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
-
-    <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
-      <Homepage msg="Welcome, Visitor!"/>
-    </div>
-  </header>
-
   <main>
-    <CityGlance/>
+    <RouterLink to ="/">Home</RouterLink>
+    <RouterLink to ="/city_hall">City Hall</RouterLink>
+    <RouterLink to ="/">Arcade</RouterLink>
+    <RouterLink to ="/">Lab</RouterLink>
+
+    <RouterLink to ="/">Library</RouterLink>
+    <RouterLink to ="/">Tibia's House</RouterLink>
+    <RouterLink to ="/">Cinema</RouterLink>
+    <RouterLink to ="/">School</RouterLink>
+
+    <RouterLink to ="/">Post Office</RouterLink>
+    <RouterLink to ="/">Art Museum</RouterLink>
+    <RouterLink to ="/">Record Store</RouterLink>
+    <RouterLink to ="/">Shopping Centre</RouterLink>
+
+    <RouterLink to ="/">Fountain</RouterLink>
+    <RouterLink to ="/">Interest Town</RouterLink>
+    <RouterLink to ="/">Bulletin Board</RouterLink>
+
+    <RouterView/>
   </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
