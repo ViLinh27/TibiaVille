@@ -16,7 +16,6 @@ import CityGlance from './components/CityGlance.vue';
   </header>
 
   <main>
-    <!-- <TheWelcome /> -->
     <CityGlance/>
   </main>
 </template>
