@@ -1,16 +1,20 @@
 <script setup lang="ts">
 // import WelcomeItem from './WelcomeItem.vue'
 import CityGlanceItem from './CityGlanceItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import DocumentationIcon from '../icons/IconDocumentation.vue'
+import ToolingIcon from '../icons/IconTooling.vue'
+import EcosystemIcon from '../icons/IconEcosystem.vue'
+import CommunityIcon from '../icons/IconCommunity.vue'
+import SupportIcon from '../icons/IconSupport.vue'
+
+import { RouterLink, RouterView } from 'vue-router'
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
+  <!-- <RouterLink to="/">Home</RouterLink> -->
+
   <CityGlanceItem>
     <template #icon>
       <DocumentationIcon />
@@ -126,4 +130,6 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <template #heading>Bulletin Board</template>
        What is on my project to do list? I keep myself accountable here.
   </CityGlanceItem>
+
+  <RouterView/>
 </template>

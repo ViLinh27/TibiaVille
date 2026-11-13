@@ -2,7 +2,8 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
 import Homepage from './components/Homepage.vue';
-import CityGlance from './components/CityGlance.vue';
+import CityGlance from './components/city_at_a_Glance/CityGlance.vue';
+// import { RouterLink, RouterView} from 'vue-router'
 </script>
 
 <template>
