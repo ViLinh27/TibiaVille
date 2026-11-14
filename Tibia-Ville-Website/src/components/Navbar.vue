@@ -5,6 +5,7 @@ import { RouterLink } from 'vue-router';
 <template>
     <div>
         <nav>
+            <h3>City at a Glance</h3>
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/city_hall">City Hall</RouterLink>
             <RouterLink to="/arcade">Arcade</RouterLink>

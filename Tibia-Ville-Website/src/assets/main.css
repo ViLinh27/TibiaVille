@@ -19,21 +19,28 @@ header{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
+    height:150vh;
+    background-color: pink;
 }
 nav{
     background-color: yellow;
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     /* width:20%; */
-    height:100vh;
-
+    height:150vh;
+    padding:8px 5px;
+    text-align: center;
+}
+nav > *{
+    margin:8px;
 }
 .page_content{
     background-color: red;
     width:100%;
+    padding:20px;
 }
 .mdFile{
     background-color: orange;
@@ -58,4 +65,104 @@ footer{
     align-items: center;
     align-content:center;
     width:10%;
+}
+
+/*---- HOME ----*/
+.map_wrapper{
+    margin:0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.map_wrapper > div{
+    border: 2px solid rgb(233 171 88);
+    border-radius: 5px;
+    background-color: rgb(233 171 88 / 50%);
+    padding: 1em;
+}
+
+.map_1{
+    /*- city hall -*/
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.map_2 {
+    /*- arcade -*/
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.map_3 {
+    /*- lab -*/
+    grid-column: 1;
+    grid-row: 1 ;
+}
+
+.map_4 {
+    /*- library-*/
+    grid-column:3;
+    grid-row: 4;
+}
+
+.map_5 {
+    /*- tibia's house-*/
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.map_6 {
+    /*- cinema -*/
+    grid-column: 5;
+    grid-row: 6;
+}
+
+.map_7 {
+    /*- school -*/
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.map_8 {
+    /*- Post Office-*/
+    grid-column: 5;
+    grid-row: 7;
+}
+
+.map_9 {
+    /*- Art museum-*/
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.map_10 {
+    /*- record store-*/
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.map_11 {
+    /*- shopping center-*/
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.map_12 {
+    /*- fountain -*/
+    grid-column: 3;
+    grid-row: 2/4;
+}
+
+.map_13 {
+    /*- interest town-*/
+    grid-column: 2/5;
+    grid-row: 8;
+}
+
+.map_14 {
+    /*- bulletin board-*/
+    grid-column: 2;
+    grid-row: 6;
 }
