@@ -1,10 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>test</h1>
-  <p>
-    test
-  </p>
+  <div>
+    <h1>test</h1>
+    <p>
+      test
+    </p>
+  </div>
 </template>
 
 <style scoped></style>
