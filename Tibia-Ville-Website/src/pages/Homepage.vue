@@ -6,9 +6,9 @@ import {ref} from 'vue'
 
 <template>
   <div>
-    <h1>home</h1>
-    <!-- <VueMarkdown :markdown="markdowntest"/> -->
-
+    <div>header</div>
+    <div>map</div>
+    <div>footer</div>
   </div>
 </template>
 

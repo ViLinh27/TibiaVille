@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="mdFile">
       <VueMarkdown :markdown="howarcadeworks"/>
   </div>
 </template>
