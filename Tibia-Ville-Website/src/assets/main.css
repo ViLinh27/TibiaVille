@@ -1,5 +1,31 @@
 
 /*---- MAIN ----*/
+.app{
+    background-color:aqua;
+    height:100vh;
+    /* width:100%; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+nav{
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* width:20%; */
+    height:100vh;
+
+}
+.page_content{
+    background-color: red;
+    width:100%;
+}
 .mdFile{
     background-color: orange;
+    margin:15px;
 }
