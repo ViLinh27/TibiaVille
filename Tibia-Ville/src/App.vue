@@ -10,22 +10,22 @@ import { RouterLink, RouterView} from 'vue-router'
   <main>
     <RouterLink to ="/">Home</RouterLink>
     <RouterLink to ="/city_hall">City Hall</RouterLink>
-    <RouterLink to ="/">Arcade</RouterLink>
-    <RouterLink to ="/">Lab</RouterLink>
+    <RouterLink to ="/arcade">Arcade</RouterLink>
+    <RouterLink to ="/lab">Lab</RouterLink>
 
-    <RouterLink to ="/">Library</RouterLink>
-    <RouterLink to ="/">Tibia's House</RouterLink>
-    <RouterLink to ="/">Cinema</RouterLink>
-    <RouterLink to ="/">School</RouterLink>
+    <RouterLink to ="/library">Library</RouterLink>
+    <RouterLink to ="/tibias_house">Tibia's House</RouterLink>
+    <RouterLink to ="/cinema">Cinema</RouterLink>
+    <RouterLink to ="/school">School</RouterLink>
 
-    <RouterLink to ="/">Post Office</RouterLink>
-    <RouterLink to ="/">Art Museum</RouterLink>
-    <RouterLink to ="/">Record Store</RouterLink>
-    <RouterLink to ="/">Shopping Centre</RouterLink>
+    <RouterLink to ="/post_office">Post Office</RouterLink>
+    <RouterLink to ="/art_museum">Art Museum</RouterLink>
+    <RouterLink to ="/record_store">Record Store</RouterLink>
+    <RouterLink to ="/shopping_centre">Shopping Centre</RouterLink>
 
-    <RouterLink to ="/">Fountain</RouterLink>
-    <RouterLink to ="/">Interest Town</RouterLink>
-    <RouterLink to ="/">Bulletin Board</RouterLink>
+    <RouterLink to ="/fountain">Fountain</RouterLink>
+    <RouterLink to ="/interest_town">Interest Town</RouterLink>
+    <RouterLink to ="/bulletin_board">Bulletin Board</RouterLink>
 
     <RouterView/>
   </main>
