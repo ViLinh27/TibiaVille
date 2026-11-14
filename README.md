@@ -23,12 +23,13 @@
 
 ## Debug log
 
-### Package.json in the wrong location
+- Package.json in the wrong location
 
-### No default export
-
-### importing raw markdown into vue files
+- No default export
+- importing raw markdown into vue files
 
 - I need to append ?raw to the end of the import files becasue Vite expects imported files to be executable JS or some asset.
 - vue-markdown package expects raw markdown string as prop
 - Adding ?raw resolves error without pliugins
+
+- typo: != is not the NOT operator in other languages, this is: = !
