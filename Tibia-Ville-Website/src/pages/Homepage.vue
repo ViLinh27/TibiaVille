@@ -6,9 +6,7 @@ import {ref} from 'vue'
 
 <template>
   <div>
-    <div>header</div>
     <div>map</div>
-    <div>footer</div>
   </div>
 </template>
 

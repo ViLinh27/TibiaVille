@@ -10,6 +10,9 @@
     justify-content: flex-start;
     align-items: stretch;
 }
+header{
+    text-align: center;
+}
 .main_content{
     display:flex;
     flex-direction: row;
