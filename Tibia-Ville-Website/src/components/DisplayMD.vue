@@ -3,6 +3,8 @@
 
   import { ref } from 'vue';
 
+  import remarkGfm from 'remark-gfm'
+
   const isVisible = ref(false)
 
   defineProps({
@@ -23,7 +25,7 @@
     {{isVisible ? 'Hide' : 'Show'}} {{ button_Text }}
     </button>
     <div class="mdFile" id="howarcadeworks" v-if="isVisible">
-      <VueMarkdown :markdown="mdFile"/>
+      <VueMarkdown :markdown="mdFile" :remark-plugins="[remarkGfm]"/>
     </div>
   </div>
   
