@@ -21,6 +21,12 @@
   - [github of library](https://github.com/shunnNet/vue-markdown)
   - [sandbox with use](https://stackblitz.com/edit/nuxt-starter-xvieezcs?file=pages%2Findex.vue)
 
+####
+
+- grid use:
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
+  - https://developer.mozilla.org/en-US/play?uuid=05bbddbbc325034d0cfdaa3b4731c8a6e2de1968&state=jVJLb8IwDP4rVqdJMNHR8tCgsB133WEcewkklIw2qZKWdkP899lt0LSuSDs5sr%2BHY31n71BkqRd5ay5PsEuZtc%2BxVxmW58LE3kusAH6NtBLYflNiPcb233lRaZxvKn1rfjCCFDZUb2D2uiTvVyy3EPJEIq9YbiCsrBHwLuvr%2FFq9kbezFn%2F8AGdibXXtW%2FklVRLh23BhfGytYnWJ1aM7RIvMWO1XkheHCJazICcMNU0iVQQBsLLQHdoL0ErOhqQjmOQ1WJ1KDibZDibTKYRPISwWw9UPyjeMy9JGMHcmW7Y7JkaXivs7nWqU%2BU2GMcyD%2B1YiZ5w3nwlF1jQc444vZ4tg3%2FcxLm2ess8IEiN5w6GHX4gM24UgzzJTuI8RuWDFYDqCcG9au4TlaHW9RsOjQ%2FhGV0jIpMKrDcIAAaPmQkO3AOaoNW8orQMK4U%2BmP0oogj3HwGT1MCbImHUZTqVhUc76nDoc0pk7DuWvh9Jd7GpBYezbrAOfOTgm8x%2FiDo1p%2FaCwYi0OIhP45Mwcvcs3&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FCSS%2FGuides%2FGrid_layout%2F
+
 ## Debug log
 
 - Package.json in the wrong location
