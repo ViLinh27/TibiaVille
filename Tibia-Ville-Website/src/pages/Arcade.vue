@@ -1,20 +1,14 @@
 <script setup lang="ts">
-  import { VueMarkdown } from '@crazydos/vue-markdown';
   import howarcadeworks from '../markdown/Arcade/1_How_does_the_arcade_work.md?raw'
 
-  import { ref } from 'vue';
+  import DisplayMD from '@/components/DisplayMD.vue';
 
-  const isVisible = ref(false)
+  const btnText = " how the arcade works"
 </script>
 
 <template>
   <div>
-    <button class="md_display_btn" @click = "isVisible = !isVisible">
-    {{isVisible ? 'Hide' : 'Show'}} how the arcade works
-    </button>
-    <div class="mdFile" id="howarcadeworks" v-if="isVisible">
-      <VueMarkdown :markdown="howarcadeworks"/>
-    </div>
+    <DisplayMD :button_Text="btnText" :mdFile="howarcadeworks"/>
   </div>
   
 </template>

@@ -41,4 +41,8 @@
 - typo: != is not the NOT operator in other languages, this is: = !
 
 - putting VUeMarkdown component into separate component to reuse to avoid copy pasta
-  -
+  - I didn't realize I forgot to prop bind the markdown file after importing the template into Arcade.vue (my example file).
+    - basically this `mdFile="howarcadeworks"` vs actually this `:mdFile="howarcadeworks"`
+  - prop binding is basically how to pass data from parent to child component with props
+    - syntax always trips me up
+  - `{{}}` is how you properly insert dynamic text into child component as a prop to be used later
