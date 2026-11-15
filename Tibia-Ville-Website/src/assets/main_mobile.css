@@ -1,0 +1,11 @@
+
+
+/*---- 400px----*/
+@media (max-width:400px){
+    .app{
+        background-color:brown;
+    }
+    nav{
+        background-color:beige;
+    }
+}
