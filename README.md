@@ -39,3 +39,6 @@
 - Adding ?raw resolves error without pliugins
 
 - typo: != is not the NOT operator in other languages, this is: = !
+
+- putting VUeMarkdown component into separate component to reuse to avoid copy pasta
+  -
