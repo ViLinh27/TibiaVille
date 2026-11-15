@@ -19,7 +19,7 @@ header{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
-    height:150vh;
+    /* height:150vh; */
     background-color: pink;
 }
 nav{
@@ -30,7 +30,7 @@ nav{
     justify-content: flex-start;
     align-items: center;
     /* width:20%; */
-    height:150vh;
+    /* height:150vh; */
     padding:8px 5px;
     text-align: center;
 }
@@ -48,8 +48,8 @@ nav > *{
 }
 footer{
     background-color:plum;
-    width:100%;
-    height:30vh;
+    /* width:100%; */
+    /* height:30vh; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -64,7 +64,8 @@ footer{
     justify-content: center;
     align-items: center;
     align-content:center;
-    width:10%;
+    /* width:10%; */
+    margin:8px;
 }
 
 /*---- HOME ----*/
