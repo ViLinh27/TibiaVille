@@ -1,11 +1,53 @@
 
 
 /*---- 400px----*/
-@media (max-width:400px){
+@media (max-width:600px){
     .app{
         background-color:brown;
     }
+    .main_content{
+        flex-direction:column;
+    }
     nav{
         background-color:beige;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    nav *:not(:first-child){
+        display:none;
+    }
+    nav .navicon{
+        width:15vw;
+        height:6vh;
+        float:right;
+        display:block;
+    }
+
+    nav.responsive {
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav.responsive *:not(:first-child){
+        margin:5vh 0 0 0;
+        /* background-color:orange; */
+    }
+    nav.responsive h3{
+        display:none;
+    }
+    nav.responsive .navicon{
+        position:absolute;
+        right:0i;
+        top:0;
+        text-align: center;
+        margin: 20px 0;
+        /* background-color: red; */
+        height:4vh;
+    }
+    nav.responsive a{
+        float:none;
+        display: block;
+        text-align: left;
     }
 }

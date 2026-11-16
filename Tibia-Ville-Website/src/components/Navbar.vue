@@ -1,10 +1,17 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
+import {ref} from 'vue';
+
+const isResp = ref(false);
+
+function navToggle(){
+    isResp.value = !isResp.value;
+}
 </script>
 
 <template>
-    <div>
-        <nav>
+    <div class="nav-container">
+        <nav class="topnav" :class="{responsive: isResp}" id="topnav">
             <h3>City at a Glance</h3>
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/city_hall">City Hall</RouterLink>
@@ -25,6 +32,9 @@ import { RouterLink } from 'vue-router';
             <RouterLink to="/fountain">Fountain</RouterLink>
             <RouterLink to="/interest_town">Interest Town</RouterLink>
             <RouterLink to="/bulletin_board">Bulletin Board</RouterLink>
+            <a href="#" @click.prevent="navToggle" class="navicon">
+                <i class="fa-mosaic fa-solid fa-bars"></i>
+            </a>
         </nav>
     </div>
 </template>
