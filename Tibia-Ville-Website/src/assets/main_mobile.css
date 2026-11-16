@@ -59,6 +59,7 @@
     /*-- home page*/
     .page_content{
         background-color: blue;
+        width:inherit;
     }
     /*-- homepage map*/
     .map_wrapper{

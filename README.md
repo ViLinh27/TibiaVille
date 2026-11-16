@@ -46,3 +46,5 @@
   - prop binding is basically how to pass data from parent to child component with props
     - syntax always trips me up
   - `{{}}` is how you properly insert dynamic text into child component as a prop to be used later
+  - syntax issue again with toggling the nav bar
+    - I had to use another use of ref and a variable to track whether the mobile nav bar was on, instead of using if else and track class names like you would in javascript
