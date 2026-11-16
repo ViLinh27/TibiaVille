@@ -56,6 +56,13 @@
         display: block;
         text-align: left;
     }
+    /*-- display MD files*/
+    .displayMD{
+        flex-direction: column;
+    }
+    .mdFile{
+        margin:0;
+    }
     /*-- home page*/
     .page_content{
         background-color: blue;

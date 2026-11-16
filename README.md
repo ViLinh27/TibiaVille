@@ -48,3 +48,20 @@
   - `{{}}` is how you properly insert dynamic text into child component as a prop to be used later
   - syntax issue again with toggling the nav bar
     - I had to use another use of ref and a variable to track whether the mobile nav bar was on, instead of using if else and track class names like you would in javascript
+- Issues with markdown text wrapping not working
+  - the uploaded text from markdown files would occasionally go past the container of hte page so that resulted in horizontal scrolling
+  - i tried adding custom attributes into the VueMarkdown component but that didn't do much , probably because I don't fully get tailwind working with typwscrapt
+    - before:
+      ```
+      <VueMarkdown
+        :markdown="mdFile"
+        :remark-plugins="[remarkGfm]"
+        :custom-attrs="{
+          p: { class: 'break-words' },
+          pre: { class: 'whitespace-pre-wrap break-words' }
+        }"
+      />
+      ```
+  - things like whitespace-pre-wrap not wokring might be becasue of no tailwind installation
+  - so the browser treats them as empty
+  - the fix was putting the styling inside scoped style tags in the displayMD component since i was not using tailwind
