@@ -32,6 +32,8 @@
 }
 body{
     font-family: 'Courier Prime', monospace;
+    margin:0;
+    padding:0;
 }
 /*---- MAIN ----*/
 .app{
