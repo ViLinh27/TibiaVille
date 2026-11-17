@@ -36,6 +36,10 @@ body{
     padding:0;
     background-color: rgb(198, 183, 239);
 }
+button{
+    font-family: 'Courier Prime',
+        monospace;
+}
 /*---- MAIN ----*/
 .app{
     /* background-color:aqua; */
