@@ -22,7 +22,9 @@
 <template>
   <div class="displayMD">
     <button class="md_display_btn" @click = "isVisible = !isVisible">
-    {{isVisible ? 'Hide' : 'Show'}} {{ button_Text }}
+      <p>
+        {{isVisible ? 'Hide' : 'Show'}} {{ button_Text }}
+      </p>
     </button>
     <div v-if="isVisible" class="mdFile">
       <VueMarkdown 
