@@ -40,6 +40,9 @@ button{
     font-family: 'Courier Prime',
         monospace;
 }
+button:hover{
+    transform: scale(1.02);
+}
 /*---- MAIN ----*/
 .app{
     /* background-color:aqua; */
