@@ -39,6 +39,16 @@ body{
 button{
     font-family: 'Courier Prime',
         monospace;
+    background-color: transparent;
+    background-image: url('./stock-photos/bluberrystockphoto.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
 }
 a:hover,
 button:hover,
