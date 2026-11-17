@@ -2,7 +2,7 @@
 <template>
     <div>
         <footer>
-            <div class="footer_col">
+            <!-- <div class="footer_col">
                 <h4>How does Tibia-Ville work?</h4>
                 <a href="#">how does the city hall work</a>
                 <a href="#">how does the arcade work</a>
@@ -18,7 +18,7 @@
                 <a href="#">how does Interest Town work work</a>
                 <a href="#">how does the fountain work</a>
                 <a href="#">how does the bulletin board work</a>
-            </div>
+            </div> -->
             <div class="footer_col">
                 <h4>follow me</h4>
                 <a href="#">instagram</a>

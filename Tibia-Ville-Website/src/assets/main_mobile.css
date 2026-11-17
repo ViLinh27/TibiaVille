@@ -1,6 +1,12 @@
 
 
 /*---- 400px----*/
+@media (max-width:900px){
+    /*map*/
+    .map_wrapper > div{
+        height:12vh;
+    }
+}
 @media (max-width:600px){
     /*-- main app*/
     .header-img{
@@ -76,6 +82,9 @@
     .map_wrapper{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+    .map_wrapper>div {
+        height: 9vh;
     }
     .map_1 {
         /*- city hall -*/
