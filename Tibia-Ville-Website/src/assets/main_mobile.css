@@ -3,8 +3,11 @@
 /*---- 400px----*/
 @media (max-width:600px){
     /*-- main app*/
+    .header-img{
+        width:30%;
+    }
     .app{
-        background-color:brown;
+        /* background-color:brown; */
     }
     .main_content{
         flex-direction:column;
@@ -15,10 +18,11 @@
     }
     /*-- nav bar*/
     nav{
-        background-color:beige;
+        /* background-color:beige; */
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        background-color: rgb(150, 131, 203);
     }
     nav *:not(:first-child){
         display:none;
@@ -65,7 +69,7 @@
     }
     /*-- home page*/
     .page_content{
-        background-color: blue;
+        /* background-color: blue; */
         width:inherit;
     }
     /*-- homepage map*/
