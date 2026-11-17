@@ -33,21 +33,16 @@ import { RouterLink } from 'vue-router';
 
          <RouterLink to="/art_museum" class="map_9">Art Museum</RouterLink>
 
-      <div class="map_10">
-        <RouterLink to="/record_store">Record Store</RouterLink>
-      </div>
-      <div class="map_11">
-        <RouterLink to="/shopping_center">Shopping Center</RouterLink>
-      </div>
-      <div class="map_12">
-        <RouterLink to="/fountain">Fountain</RouterLink>
-      </div>
-      <div class="map_13">
-        <RouterLink to="/interest_town">Interest Town</RouterLink>
-      </div>
-      <div class="map_14">
-        <RouterLink to="/bulletin_board">Bulletin Board</RouterLink>
-      </div>
+        <RouterLink to="/record_store" class="map_10">Record Store</RouterLink>
+
+        <RouterLink to="/shopping_center" class="map_11">Shopping Center</RouterLink>
+
+        <RouterLink to="/fountain" class="map_12">Fountain</RouterLink>
+
+        <RouterLink to="/interest_town" class="map_13">Interest Town</RouterLink>
+
+        <RouterLink to="/bulletin_board" class="map_14">Bulletin Board</RouterLink>
+
     </div>
   </div>
 </template>
