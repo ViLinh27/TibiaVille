@@ -7,33 +7,32 @@ import { RouterLink } from 'vue-router';
 <template>
   <div>
     <div class="map_wrapper">
-      <div class="map_1">
-        <RouterLink to="/city_hall">City Hall</RouterLink>
-      </div>
-      <div class="map_2">
-        <RouterLink to="/arcade">Arcade</RouterLink>
-      </div>
-      <div class="map_3">
-        <RouterLink to="/lab">Lab</RouterLink>
-      </div>
-      <div class="map_4">
-        <RouterLink to="/library">Library</RouterLink>
-      </div>
-      <div class="map_5">
-        <RouterLink to="/tibias_house">Tibia's House</RouterLink>
-      </div>
-      <div class="map_6">
-        <RouterLink to="/cinema">Cinema</RouterLink>
-      </div>
-      <div class="map_7">
-        <RouterLink to="/school">School</RouterLink>
-      </div>
-      <div class="map_8">
-        <RouterLink to="/post_office">Post Office</RouterLink>
-      </div>
-      <div class="map_9">
-         <RouterLink to="/art_museum">Art Museum</RouterLink>
-      </div>
+      
+        <RouterLink to="/city_hall" class="map_1">
+          City Hall
+        </RouterLink>
+      
+     
+        <RouterLink to="/arcade" class="map_2"> 
+          Arcade
+        </RouterLink> 
+     
+        <RouterLink to="/lab" class="map_3">
+          Lab
+        </RouterLink>
+      
+        <RouterLink to="/library" class="map_4">Library</RouterLink>
+
+        <RouterLink to="/tibias_house" class="map_5">Tibia's House</RouterLink>
+
+        <RouterLink to="/cinema" class="map_6">Cinema</RouterLink>
+
+        <RouterLink to="/school" class="map_7">School</RouterLink>
+
+        <RouterLink to="/post_office" class="map_8">Post Office</RouterLink>
+
+         <RouterLink to="/art_museum" class="map_9">Art Museum</RouterLink>
+
       <div class="map_10">
         <RouterLink to="/record_store">Record Store</RouterLink>
       </div>

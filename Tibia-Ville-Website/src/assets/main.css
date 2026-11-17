@@ -54,6 +54,9 @@ button:hover{
     justify-content: flex-start;
     align-items: stretch;
 }
+a{
+    text-decoration: none;
+}
 header{
     text-align: center;
 }
@@ -111,6 +114,7 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: space-around;
+    background-color: rgb(150, 131, 203);
 }
 .footer_col{
     /* background-color: blanchedalmond; */
@@ -153,7 +157,7 @@ footer{
     background-repeat: no-repeat;
     height: 180vh;
 }
-.map_wrapper > div{
+.map_wrapper > *{
     border-radius: 5px;
     height:20vh;
     background-image: url('./stock-photos/pexels-gabby-k-6289048.jpg');
@@ -162,7 +166,7 @@ footer{
     background-size:cover;
     background-repeat: no-repeat;
 }
-.map_wrapper>div:hover{
+.map_wrapper>*:hover{
     transform: scale(1.02);
 }
 .map_1{

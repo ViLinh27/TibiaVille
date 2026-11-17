@@ -3,7 +3,7 @@
 /*---- 400px----*/
 @media (max-width:900px){
     /*map*/
-    .map_wrapper > div{
+    .map_wrapper > *{
         height:12vh;
     }
 }
@@ -83,7 +83,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-    .map_wrapper>div {
+    .map_wrapper> * {
         height: 9vh;
     }
     .map_1 {
