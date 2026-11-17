@@ -13,7 +13,7 @@ function navToggle(){
     <div class="nav-container">
         <nav class="topnav" :class="{responsive: isResp}" id="topnav">
             <h3><a href="/">City at a Glance</a></h3>
-            <RouterLink to="/">Home</RouterLink>
+            <!-- <RouterLink to="/">Home</RouterLink> -->
             <RouterLink to="/city_hall">City Hall</RouterLink>
             <RouterLink to="/arcade">Arcade</RouterLink>
 
