@@ -1,0 +1,15 @@
+-  Vivienne Westwood inspired tie charm
+	- hunni has a tutorial on it
+	- You need 2 ties
+-   Dread Queen denim jacket
+	- Pomegranates embroidery on outside
+	- Skeleton shirt as lining inside
+	- Ugly scarf ad insulation
+	- WIP
+- Millie crochet top
+	- Need to male second sleeve
+	- Need to make it less cropped
+	- WIP
+- BLOCK HIM vest
+	- Knit
+	- WIP

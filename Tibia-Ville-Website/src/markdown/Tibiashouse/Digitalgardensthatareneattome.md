@@ -1,0 +1,8 @@
+- I got a good chunk of these from this reddit thread: https://www.reddit.com/r/ObsidianMD/comments/1khpcoo/are_there_any_digital_gardens_that_arent_about/
+  - This person made a world building wiki out of obsidian hosting (or whatever it's called)
+    - https://attovia.wiki
+  - There's a digital garden pluggin that makes your obsidian vault look like this:
+    - https://hermitage.utsob.me/journal/on-career/#a97315 
+    - I think it's this plugin: https://community.obsidian.md/plugins/digitalgarden
+  - art professor who has neat sections
+    -https://mister-chad.com/now
