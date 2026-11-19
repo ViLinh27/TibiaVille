@@ -1,11 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import DisplayMD from '@/components/DisplayMD.vue';  
+</script>
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        Tibia's House
-    </p>
+    <h2 class="page_headers">Tibia's House</h2>
   </div>
 </template>
 

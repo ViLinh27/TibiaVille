@@ -28,6 +28,7 @@
 
 <template>
   <div>
+    <h2 class="page_headers">Arcade</h2>
     <DisplayMD :button_Text="btnText" :mdFile="howarcadeworks"/>
     <DisplayMD :button_Text="btnText2" :mdFile="gamesivemade"/>
     <DisplayMD :button_Text="btnText3" :mdFile="gamesiwannamake"/>

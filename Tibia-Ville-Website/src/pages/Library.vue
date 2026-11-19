@@ -27,6 +27,7 @@ const btn5 = " comics that look cool"
 
 <template>
   <div>
+    <h2 class="page_headers">Library</h2>
     <DisplayMD :button_Text="btn1" :mdFile="mdfile1"/>
     <DisplayMD :button_Text="btn2" :mdFile="mdfile2"/>
     <DisplayMD :button_Text="btn3" :mdFile="mdfile3"/>

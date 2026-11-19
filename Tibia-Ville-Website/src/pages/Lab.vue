@@ -25,6 +25,7 @@
 
 <template>
   <div>
+    <h2 class="page_headers">Lab</h2>
     <DisplayMD :button_Text="btn1" :mdFile="howlabworks"/>
     <DisplayMD :button_Text="btn2" :mdFile="whattobuild"/>
     <DisplayMD :button_Text="btn3" :mdFile="circuitsim"/>

@@ -10,8 +10,9 @@
 </script>
 <template>
   <div>
-   <DisplayMD :button_Text ="btnText_how" :mdFile="howcityhallworks"/>
-   <DisplayMD :button_Text="btnText_map" :mdFile="sitemap"/>
+    <h2 class="page_headers">City Hall</h2>
+    <DisplayMD :button_Text ="btnText_how" :mdFile="howcityhallworks"/>
+    <DisplayMD :button_Text="btnText_map" :mdFile="sitemap"/>
   </div>
 </template>
 
