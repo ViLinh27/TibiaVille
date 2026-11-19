@@ -159,6 +159,13 @@ footer{
     width:100%;
 }
 /*---- HOME ----*/
+.mapbdg_name{
+    display:none;
+}
+.map_btn:hover .mapbdg_name{
+    display:block;
+    text-align: center;
+}
 .map_wrapper{
     margin:0 auto;
     display: grid;
@@ -182,85 +189,85 @@ footer{
     background-size:cover;
     background-repeat: no-repeat;
 }
-.map_1{
+#map_1{
     /*- city hall -*/
     grid-column: 3;
     grid-row: 1;
 }
 
-.map_2 {
+#map_2 {
     /*- arcade -*/
     grid-column: 5;
     grid-row: 3;
 }
 
-.map_3 {
+#map_3 {
     /*- lab -*/
     grid-column: 1;
     grid-row: 1 ;
 }
 
-.map_4 {
+#map_4 {
     /*- library-*/
     grid-column:3;
     grid-row: 4;
 }
 
-.map_5 {
+#map_5 {
     /*- tibia's house-*/
     grid-column: 1;
     grid-row: 7;
 }
 
-.map_6 {
+#map_6 {
     /*- cinema -*/
     grid-column: 5;
     grid-row: 6;
 }
 
-.map_7 {
+#map_7 {
     /*- school -*/
     grid-column: 1;
     grid-row: 4;
 }
 
-.map_8 {
+#map_8 {
     /*- Post Office-*/
     grid-column: 5;
     grid-row: 7;
 }
 
-.map_9 {
+#map_9 {
     /*- Art museum-*/
     grid-column: 5;
     grid-row: 1;
 }
 
-.map_10 {
+#map_10 {
     /*- record store-*/
     grid-column: 4;
     grid-row: 6;
 }
 
-.map_11 {
+#map_11 {
     /*- shopping center-*/
     grid-column: 3;
     grid-row: 7;
 }
 
-.map_12 {
+#map_12 {
     /*- fountain -*/
     grid-column: 3;
     grid-row: 2/4;
 }
 
-.map_13 {
+#map_13 {
     /*- interest town-*/
     grid-column: 2/5;
     grid-row: 8;
 }
 
-.map_14 {
+#map_14 {
     /*- bulletin board-*/
     grid-column: 2;
     grid-row: 6;
