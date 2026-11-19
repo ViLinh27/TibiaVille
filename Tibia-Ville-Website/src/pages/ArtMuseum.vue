@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-       art museum
-    </p>
+    <h2 class="page_headers">Art Museum</h2>
   </div>
 </template>
 

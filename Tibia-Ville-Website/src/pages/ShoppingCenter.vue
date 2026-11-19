@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        shopping center
-    </p>
+     <h2 class="page_headers">Shopping Center</h2>
   </div>
 </template>
 

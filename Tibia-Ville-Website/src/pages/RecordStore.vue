@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        record store
-    </p>
+     <h2 class="page_headers">Record Store</h2>
   </div>
 </template>
 

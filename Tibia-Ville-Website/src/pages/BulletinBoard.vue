@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        bulletin board
-    </p>
+     <h2 class="page_headers">Bulletin Board</h2>
   </div>
 </template>
 

@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        post office
-    </p>
+     <h2 class="page_headers">Post Office</h2>
   </div>
 </template>
 

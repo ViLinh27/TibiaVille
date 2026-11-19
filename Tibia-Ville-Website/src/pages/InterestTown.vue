@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        interest town
-    </p>
+     <h2 class="page_headers">Interest Town</h2>
   </div>
 </template>
 

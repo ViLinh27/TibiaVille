@@ -2,10 +2,7 @@
 
 <template>
   <div>
-    <h1>home</h1>
-    <p>
-        School
-    </p>
+     <h2 class="page_headers">School</h2>
   </div>
 </template>
 
