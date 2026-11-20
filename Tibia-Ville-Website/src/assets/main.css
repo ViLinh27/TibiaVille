@@ -170,23 +170,23 @@ footer{
     margin:0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 
-    background-image: url('./stock-photos/pexels-thefullonmonet-20233772.jpg');
-    padding: 1em;
+    background-image: url('./sketches/Tibia-Villeassets_20261120142312.png');
+    /* padding: 1em; */
     background-position: center;
-    background-size: cover;
+    background-size: 1300px 1103px;
     background-repeat: no-repeat;
-    height: 180vh;
+    width:1300px;
 }
 .map_wrapper > *{
     border-radius: 5px;
-    height:20vh;
-    background-image: url('./stock-photos/pexels-gabby-k-6289048.jpg');
+    height:15vh;
+    background-image: url('./sketches/Tibia-Ville\ assets2_20261120143457.png');
     padding: 1em;
     background-position: center;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 #map_1{
@@ -258,7 +258,7 @@ footer{
 #map_12 {
     /*- fountain -*/
     grid-column: 3;
-    grid-row: 2/4;
+    grid-row: 2;
 }
 
 #map_13 {
