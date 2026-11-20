@@ -1,10 +1,37 @@
 
 
-/*---- 400px----*/
+@media (max-width:1460px){
+    .map_wrapper{
+        width:1200px;
+        background-size: contain;
+    }
+}
+@media (max-width:1280px){
+    .map_wrapper{
+        width:1100px;
+    }
+}
+@media (max-width:1140px) {
+    .map_wrapper {
+        width: 980px;
+    }
+}
+@media (max-width:1000px) {
+    .map_wrapper {
+        width: 820px;
+    }
+    .map_wrapper > *{
+        height:8vh;
+    }
+}
 @media (max-width:900px){
     /*map*/
+    .map_wrapper {
+        width: 640px;
+        background-size: 640px 870px;
+    }
     .map_wrapper > *{
-        height:12vh;
+        height:7vh;
     }
 }
 @media (max-width:600px){
